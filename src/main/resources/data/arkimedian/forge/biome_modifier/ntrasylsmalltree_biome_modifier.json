@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "arkimedian:ethenriaforest",
+    "arkimedian:oldgrowth_ntrasyl_forest"
+  ],
+  "features": "arkimedian:ntrasylsmalltree",
+  "step": "vegetal_decoration"
+}

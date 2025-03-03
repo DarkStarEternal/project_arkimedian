@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/gwen_server"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/gwen_server",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/gwen_server",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/gwen_server",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:motor"
+    },
+    "b": {
+      "item": "arkimedian:copperspool"
+    },
+    "c": {
+      "item": "minecraft:crafting_table"
+    },
+    "d": {
+      "item": "arkimedian:circuits"
+    },
+    "e": {
+      "item": "arkimedian:heavyplate"
+    }
+  },
+  "result": {
+    "item": "arkimedian:constructioncore",
+    "count": 1
+  }
+}

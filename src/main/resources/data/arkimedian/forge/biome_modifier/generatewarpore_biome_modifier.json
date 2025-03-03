@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "arkimedian:ethenriaforest",
+    "arkimedian:marsdesert",
+    "arkimedian:marsrockfield",
+    "arkimedian:ocean",
+    "arkimedian:oldgrowth_ntrasyl_forest",
+    "arkimedian:sociresnoliaswamp",
+    "arkimedian:xenoshroomfield"
+  ],
+  "features": "arkimedian:generatewarpore",
+  "step": "underground_ores"
+}

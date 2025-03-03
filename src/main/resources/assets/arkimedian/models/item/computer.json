@@ -1,0 +1,7 @@
+{
+  "parent": "arkimedian:custom/computer",
+  "textures": {
+    "0": "arkimedian:block/computer_2",
+    "particle": "arkimedian:item/wrench"
+  }
+}

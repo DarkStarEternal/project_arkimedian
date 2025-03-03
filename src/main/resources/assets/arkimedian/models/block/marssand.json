@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/mars_sand",
+    "up": "arkimedian:block/mars_sand",
+    "north": "arkimedian:block/mars_sand",
+    "east": "arkimedian:block/mars_sand",
+    "south": "arkimedian:block/mars_sand",
+    "west": "arkimedian:block/mars_sand",
+    "particle": "arkimedian:block/mars_sand"
+  },
+  "render_type": "solid"
+}

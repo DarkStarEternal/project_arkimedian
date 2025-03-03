@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "arkimedian:sociresnoliaswamp",
+  "features": "arkimedian:toraniletreewithnest",
+  "step": "surface_structures"
+}

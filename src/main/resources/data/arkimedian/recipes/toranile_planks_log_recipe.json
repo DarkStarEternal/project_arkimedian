@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "arkimedian:toranile_log"
+    }
+  ],
+  "result": {
+    "item": "arkimedian:biomass",
+    "count": 3
+  }
+}

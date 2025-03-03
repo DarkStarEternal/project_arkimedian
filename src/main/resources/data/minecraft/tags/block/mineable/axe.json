@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "arkimedian:sininca_planks",
+    "arkimedian:sininca_log",
+    "arkimedian:sininca_wood",
+    "arkimedian:ntrasyl_planks",
+    "arkimedian:ntrasyl_log",
+    "arkimedian:ntrasyl_wood"
+  ]
+}

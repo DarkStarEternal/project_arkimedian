@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/aluminium_vein",
+    "up": "arkimedian:block/aluminium_vein",
+    "north": "arkimedian:block/aluminium_ore_vein_side",
+    "east": "arkimedian:block/aluminium_ore_vein_side",
+    "south": "arkimedian:block/aluminium_ore_vein_side",
+    "west": "arkimedian:block/aluminium_ore_vein_side",
+    "particle": "arkimedian:block/aluminium_vein"
+  },
+  "render_type": "solid"
+}

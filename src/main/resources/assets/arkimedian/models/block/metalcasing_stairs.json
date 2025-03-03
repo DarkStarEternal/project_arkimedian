@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "arkimedian:block/metal_casing",
+    "bottom": "arkimedian:block/metal_casing",
+    "top": "arkimedian:block/metal_casing",
+    "side": "arkimedian:block/metal_casing"
+  },
+  "render_type": "solid"
+}

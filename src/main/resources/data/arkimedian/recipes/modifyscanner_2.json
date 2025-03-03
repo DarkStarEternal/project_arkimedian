@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stone_button"
+    },
+    "b": {
+      "item": "arkimedian:copper_ironspool"
+    },
+    "c": {
+      "item": "arkimedian:heavyplate"
+    },
+    "d": {
+      "item": "arkimedian:circuits"
+    }
+  },
+  "result": {
+    "item": "arkimedian:asad",
+    "count": 1
+  }
+}

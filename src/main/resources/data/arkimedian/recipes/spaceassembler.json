@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "afa"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:heavyplate"
+    },
+    "b": {
+      "item": "arkimedian:complexcircuit"
+    },
+    "c": {
+      "item": "arkimedian:input"
+    },
+    "d": {
+      "item": "arkimedian:constructioncore"
+    },
+    "e": {
+      "item": "arkimedian:output"
+    },
+    "f": {
+      "item": "arkimedian:plastic"
+    }
+  },
+  "result": {
+    "item": "arkimedian:spaceassembler",
+    "count": 1
+  }
+}

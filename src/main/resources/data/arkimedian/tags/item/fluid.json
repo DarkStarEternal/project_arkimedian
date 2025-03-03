@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "arkimedian:refinedoil",
+    "arkimedian:crudeoil",
+    "arkimedian:carbondioxide",
+    "arkimedian:aluminiumacid"
+  ]
+}

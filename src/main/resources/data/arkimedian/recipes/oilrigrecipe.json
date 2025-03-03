@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "d d"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:foundation"
+    },
+    "b": {
+      "item": "arkimedian:cable"
+    },
+    "c": {
+      "item": "minecraft:copper_block"
+    },
+    "d": {
+      "item": "arkimedian:heavyplate"
+    }
+  },
+  "result": {
+    "item": "arkimedian:oilrig",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "belt_av_ii_curve_right"
+      },
+      "name": "default"
+    }
+  }
+}

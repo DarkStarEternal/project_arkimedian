@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/copperveinblock"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/copperveinblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/copperveinblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/copperveinblock",
+      "y": 270
+    }
+  }
+}

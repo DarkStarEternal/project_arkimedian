@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "arkimedian:sociresnoliaswamp",
+  "features": "arkimedian:grasspatch",
+  "step": "surface_structures"
+}

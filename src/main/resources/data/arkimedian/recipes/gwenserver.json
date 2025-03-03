@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:computer"
+    },
+    "b": {
+      "item": "arkimedian:copper_ironspool"
+    },
+    "c": {
+      "item": "arkimedian:heavyplate"
+    }
+  },
+  "result": {
+    "item": "arkimedian:gwen_server",
+    "count": 2
+  }
+}

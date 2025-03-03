@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/xenoshroom_hat",
+    "up": "arkimedian:block/xenoshroom_hat",
+    "north": "arkimedian:block/xenoshroom_hat",
+    "east": "arkimedian:block/xenoshroom_hat",
+    "south": "arkimedian:block/xenoshroom_hat",
+    "west": "arkimedian:block/xenoshroom_hat",
+    "particle": "arkimedian:block/xenoshroom_hat"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arkimedian:unrinril_wood"
+    }
+  ],
+  "result": {
+    "item": "arkimedian:biomass",
+    "count": 3
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=north,corner=none": {
+      "model": "arkimedian:block/belt_av_ii"
+    },
+    "facing=east,corner=none": {
+      "model": "arkimedian:block/belt_av_ii",
+      "y": 90
+    },
+    "facing=south,corner=none": {
+      "model": "arkimedian:block/belt_av_ii",
+      "y": 180
+    },
+    "facing=west,corner=none": {
+      "model": "arkimedian:block/belt_av_ii",
+      "y": 270
+    },
+    "facing=north,corner=left": {
+      "model": "arkimedian:block/belt_av_ii_curve_left",
+      "y": 180
+    },
+    "facing=north,corner=right": {
+      "model": "arkimedian:block/belt_av_ii_curve_right",
+      "y": 180
+    },
+    "facing=west,corner=left": {
+      "model": "arkimedian:block/belt_av_ii_curve_left",
+      "y": 90
+    },
+    "facing=west,corner=right": {
+      "model": "arkimedian:block/belt_av_ii_curve_right",
+      "y": 90
+    },
+    "facing=east,corner=left": {
+      "model": "arkimedian:block/belt_av_ii_curve_left",
+      "y": 270
+    },
+    "facing=east,corner=right": {
+      "model": "arkimedian:block/belt_av_ii_curve_right",
+      "y": 270
+    },
+    "facing=south,corner=right": {
+      "model": "arkimedian:block/belt_av_ii_curve_right"
+    },
+    "facing=south,corner=left": {
+      "model": "arkimedian:block/belt_av_ii_curve_left"
+    }
+  }
+}

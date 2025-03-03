@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "arkimedian:block/biomasswood_slab"
+    },
+    "type=top": {
+      "model": "arkimedian:block/biomasswood_slab_top"
+    },
+    "type=double": {
+      "model": "arkimedian:block/biomasswood_slab_full"
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "_fv": 73,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Xentanive",
+    "mobLabel": "",
+    "mobModelName": "Modelxentanive",
+    "mobModelTexture": "xentanive.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [
+      {
+        "model": "Modelxentanive",
+        "texture": "xentanive_tamed.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "XentaniveDisplayCondition"
+        }
+      }
+    ],
+    "animations": [
+      {
+        "animation": {
+          "value": "CUSTOM:xentaniveAnimation.Fly"
+        },
+        "speed": 1.0,
+        "walking": true,
+        "amplitude": 2.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:xentaniveAnimation.attack"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "XentanivePlaybackCondition"
+        },
+        "walking": false,
+        "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:xentaniveAnimation.die"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "GrelhoundPlaybackCondition"
+        },
+        "walking": false,
+        "amplitude": 1.0
+      }
+    ],
+    "modelWidth": 0.30000000000000004,
+    "modelHeight": 0.5,
+    "modelShadowSize": 0.19999999999999998,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -9545960,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -13294576,
+      "falpha": 0.0
+    },
+    "creativeTabs": [
+      {
+        "value": "MISC"
+      }
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.19999999999999998,
+    "stepHeight": 0.5,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 8,
+    "xpAmount": 0,
+    "waterMob": true,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": true,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": ""
+    },
+    "deathSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "raidCelebrationSound": {
+      "value": ""
+    },
+    "entityDataEntries": [
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "feed_level",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "hivex",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "hivey",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "hivez",
+        "type": "integer",
+        "value": 0
+      }
+    ],
+    "whenThisMobKillsAnother": {
+      "name": "Xentanivefetchfood"
+    },
+    "onMobTickUpdate": {
+      "name": "XentaniveOnEntityTickUpdate"
+    },
+    "onInitialSpawn": {
+      "name": "XentaniveOnInitialEntitySpawn"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"128\" y=\"96\"><next><block type=\"attack_fly\"><field name=\"radius\">16</field><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">2</field><field name=\"condition\">null,null</field><next><block type=\"swim\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">Xenantivetamedyes,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityCaveSpider</field><field name=\"condition\">Xenantivetamedyes,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "tameable": true,
+    "breedTriggerItems": [
+      {
+        "value": "Items.SPIDER_EYE"
+      },
+      {
+        "value": "CUSTOM:DocreantileFlesh"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 3,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
+  }
+}

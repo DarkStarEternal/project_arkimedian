@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "structure",
+  "definition": {
+    "structure": "ruin_rare",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 33,
+    "separation": 25,
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "savanna"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

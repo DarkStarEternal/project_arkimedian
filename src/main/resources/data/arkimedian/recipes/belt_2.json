@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccd"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:plastic"
+    },
+    "b": {
+      "item": "minecraft:copper_ingot"
+    },
+    "c": {
+      "item": "arkimedian:heavyplate"
+    },
+    "d": {
+      "item": "arkimedian:motor"
+    }
+  },
+  "result": {
+    "item": "arkimedian:belt_av_i",
+    "count": 10
+  }
+}

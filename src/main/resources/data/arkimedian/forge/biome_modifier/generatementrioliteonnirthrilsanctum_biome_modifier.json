@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "arkimedian:ethenriaforest",
+    "arkimedian:marsdesert",
+    "arkimedian:marsrockfield",
+    "arkimedian:ocean",
+    "arkimedian:oldgrowth_ntrasyl_forest",
+    "arkimedian:sociresnoliaswamp",
+    "arkimedian:xenoshroomfield",
+    "arkimedian:hot_valley",
+    "arkimedian:barren_wasteland"
+  ],
+  "features": "arkimedian:generatementrioliteonnirthrilsanctum",
+  "step": "underground_ores"
+}

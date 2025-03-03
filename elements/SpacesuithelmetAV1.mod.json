@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Heavyplate"
+      },
+      {
+        "value": "CUSTOM:Fabric"
+      },
+      {
+        "value": "CUSTOM:Heavyplate"
+      },
+      {
+        "value": "CUSTOM:Plastic"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Plastic"
+      },
+      {
+        "value": "CUSTOM:Cable"
+      },
+      {
+        "value": "CUSTOM:ArkimedianAV1Powerarmor.helmet"
+      },
+      {
+        "value": "CUSTOM:Cable"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Spacesuit.helmet"
+    },
+    "name": "spacesuithelmet_av_1",
+    "namespace": "mod"
+  }
+}

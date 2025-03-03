@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/extraterrestric_mud",
+    "up": "arkimedian:block/extraterrestric_mud",
+    "north": "arkimedian:block/extraterrestric_mud",
+    "east": "arkimedian:block/extraterrestric_mud",
+    "south": "arkimedian:block/extraterrestric_mud",
+    "west": "arkimedian:block/extraterrestric_mud",
+    "particle": "arkimedian:block/extraterrestric_mud"
+  },
+  "render_type": "solid"
+}

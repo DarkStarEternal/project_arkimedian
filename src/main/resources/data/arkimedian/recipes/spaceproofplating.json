@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:gold_ironspool"
+    },
+    "b": {
+      "item": "arkimedian:heavyplate"
+    },
+    "c": {
+      "item": "arkimedian:plastic"
+    }
+  },
+  "result": {
+    "item": "arkimedian:spaceproofplating",
+    "count": 3
+  }
+}

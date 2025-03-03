@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "arkimedian:barren_wasteland",
+    "arkimedian:hot_valley"
+  ],
+  "features": "arkimedian:unrinriltree",
+  "step": "vegetal_decoration"
+}

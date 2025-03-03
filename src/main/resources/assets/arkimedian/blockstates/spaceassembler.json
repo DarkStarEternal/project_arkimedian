@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/spaceassembler"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/spaceassembler",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/spaceassembler",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/spaceassembler",
+      "y": 270
+    }
+  }
+}

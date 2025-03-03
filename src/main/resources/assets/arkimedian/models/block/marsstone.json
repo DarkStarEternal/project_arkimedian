@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/new_marsobble",
+    "up": "arkimedian:block/new_marsobble",
+    "north": "arkimedian:block/new_marsobble",
+    "east": "arkimedian:block/new_marsobble",
+    "south": "arkimedian:block/new_marsobble",
+    "west": "arkimedian:block/new_marsobble",
+    "particle": "arkimedian:block/new_marsobble"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,105 @@
+{
+  "_fv": 73,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "gwen_talking_hud.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 96,
+          "y": -1,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gwen_logo.png",
+          "use1Xscale": true,
+          "anchorPoint": "TOP_LEFT",
+          "x": 196,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hello_im_gwen",
+          "text": {
+            "fixedValue": "You should not eat that. Its not certain"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 114,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gwen_your",
+          "text": {
+            "fixedValue": "if that would be healthfu... youre "
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 126,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "skip_button.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 200,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_going_to_do_anyways_arent_you",
+          "text": {
+            "fixedValue": "doing anyways arent you ?"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 148,
+          "y": 35,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "Gwenmeataquireshow"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

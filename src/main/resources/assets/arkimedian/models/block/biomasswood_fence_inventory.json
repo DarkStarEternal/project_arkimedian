@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "arkimedian:block/biomass_plank",
+    "particle": "arkimedian:block/biomass_plank"
+  },
+  "render_type": "solid"
+}

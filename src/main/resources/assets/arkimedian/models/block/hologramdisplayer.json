@@ -1,0 +1,9 @@
+{
+  "parent": "arkimedian:custom/holograph_display",
+  "textures": {
+    "all": "arkimedian:block/blank_top_metal",
+    "particle": "arkimedian:block/blank_top_metal",
+    "0": "arkimedian:block/hologramm_display"
+  },
+  "render_type": "solid"
+}

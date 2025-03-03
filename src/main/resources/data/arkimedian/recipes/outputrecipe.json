@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcd",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:heavyplate"
+    },
+    "b": {
+      "item": "arkimedian:circuits"
+    },
+    "c": {
+      "item": "arkimedian:cable"
+    },
+    "d": {
+      "item": "arkimedian:fabric"
+    }
+  },
+  "result": {
+    "item": "arkimedian:output",
+    "count": 2
+  }
+}

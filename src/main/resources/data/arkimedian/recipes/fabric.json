@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bab",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:ironspoolempty"
+    },
+    "b": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "arkimedian:fabric",
+    "count": 3
+  }
+}

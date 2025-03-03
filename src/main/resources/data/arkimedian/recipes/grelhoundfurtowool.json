@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arkimedian:grelhound_fur"
+    },
+    {
+      "item": "arkimedian:grelhound_fur"
+    },
+    {
+      "item": "arkimedian:grelhound_fur"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_wool",
+    "count": 2
+  }
+}

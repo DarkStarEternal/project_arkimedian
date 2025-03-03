@@ -1,0 +1,9 @@
+{
+  "parent": "arkimedian:custom/gwencomputer",
+  "textures": {
+    "all": "arkimedian:block/blank_metal",
+    "particle": "arkimedian:block/blank_metal",
+    "0": "arkimedian:block/gwen_computer"
+  },
+  "render_type": "solid"
+}

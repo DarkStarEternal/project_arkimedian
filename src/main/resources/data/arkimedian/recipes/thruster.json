@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:pipe"
+    },
+    "b": {
+      "item": "arkimedian:spaceproofplating"
+    },
+    "c": {
+      "item": "arkimedian:shipcontrolunit"
+    },
+    "d": {
+      "item": "arkimedian:energycore"
+    }
+  },
+  "result": {
+    "item": "arkimedian:thruster",
+    "count": 1
+  }
+}

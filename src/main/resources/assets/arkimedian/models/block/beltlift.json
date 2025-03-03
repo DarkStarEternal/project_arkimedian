@@ -1,0 +1,9 @@
+{
+  "parent": "arkimedian:custom/belt_lift_avi",
+  "textures": {
+    "all": "arkimedian:block/blank_metal",
+    "particle": "arkimedian:block/blank_metal",
+    "0": "arkimedian:block/belt_lift_avi"
+  },
+  "render_type": "solid"
+}

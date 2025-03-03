@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:gold_ironspool"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    },
+    "c": {
+      "item": "arkimedian:uraniumshard"
+    }
+  },
+  "result": {
+    "item": "arkimedian:bolts",
+    "count": 4
+  }
+}

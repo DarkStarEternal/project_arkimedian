@@ -1,0 +1,9 @@
+{
+  "parent": "arkimedian:custom/belt_av_ii_curve_left",
+  "textures": {
+    "all": "arkimedian:block/blank_metal",
+    "particle": "arkimedian:block/blank_metal",
+    "0": "arkimedian:block/belt_av_ii_curve_left"
+  },
+  "render_type": "solid"
+}

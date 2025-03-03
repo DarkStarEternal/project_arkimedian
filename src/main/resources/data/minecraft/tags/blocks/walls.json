@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "arkimedian:minershaft",
+    "arkimedian:biomasswood_fence",
+    "arkimedian:ceracrete_wall"
+  ]
+}

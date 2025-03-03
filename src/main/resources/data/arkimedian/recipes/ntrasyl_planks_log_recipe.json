@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "arkimedian:biomasswood_planks"
+    },
+    {
+      "item": "arkimedian:biomasswood_planks"
+    },
+    {
+      "item": "arkimedian:biomasswood_planks"
+    },
+    {
+      "item": "arkimedian:biomasswood_planks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

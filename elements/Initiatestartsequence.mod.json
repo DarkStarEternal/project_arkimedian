@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "UP",
+    "keyBindingName": "Initiate start sequence",
+    "keyBindingCategoryKey": "arkimedian",
+    "onKeyPressed": {
+      "name": "InitiatestartsequenceOnKeyPressed"
+    }
+  }
+}

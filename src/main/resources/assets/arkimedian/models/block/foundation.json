@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/foundation_2",
+    "up": "arkimedian:block/foundation_2",
+    "north": "arkimedian:block/foundation_2",
+    "east": "arkimedian:block/foundation_2",
+    "south": "arkimedian:block/foundation_2",
+    "west": "arkimedian:block/foundation_2",
+    "particle": "arkimedian:block/foundation_2"
+  },
+  "render_type": "solid"
+}

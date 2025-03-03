@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/mentriolite",
+    "up": "arkimedian:block/mentriolite",
+    "north": "arkimedian:block/mentriolite",
+    "east": "arkimedian:block/mentriolite",
+    "south": "arkimedian:block/mentriolite",
+    "west": "arkimedian:block/mentriolite",
+    "particle": "arkimedian:block/mentriolite"
+  },
+  "render_type": "solid"
+}

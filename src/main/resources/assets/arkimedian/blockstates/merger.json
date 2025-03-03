@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/merger"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/merger",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/merger",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/merger",
+      "y": 270
+    }
+  }
+}

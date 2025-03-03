@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "gvral_hologram"
+      },
+      "name": "default"
+    }
+  }
+}

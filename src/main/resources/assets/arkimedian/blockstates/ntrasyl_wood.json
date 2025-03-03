@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "arkimedian:block/ntrasyl_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "arkimedian:block/ntrasyl_wood"
+    },
+    "axis=z": {
+      "model": "arkimedian:block/ntrasyl_wood",
+      "x": 90
+    }
+  }
+}

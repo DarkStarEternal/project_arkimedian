@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arkimedian:ceramitedust"
+    },
+    {
+      "item": "arkimedian:ceramitedust"
+    },
+    {
+      "item": "arkimedian:ceramitedust"
+    }
+  ],
+  "result": {
+    "item": "arkimedian:ceramite",
+    "count": 1
+  }
+}

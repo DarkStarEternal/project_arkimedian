@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/hot_dirt",
+    "up": "arkimedian:block/heated_grass_top",
+    "north": "arkimedian:block/heated_grass_side",
+    "east": "arkimedian:block/heated_grass_side",
+    "south": "arkimedian:block/heated_grass_side",
+    "west": "arkimedian:block/heated_grass_side",
+    "particle": "arkimedian:block/hot_dirt"
+  },
+  "render_type": "cutout"
+}

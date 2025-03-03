@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ammo_container",
+        "1": "boltgun"
+      },
+      "name": "default"
+    }
+  }
+}

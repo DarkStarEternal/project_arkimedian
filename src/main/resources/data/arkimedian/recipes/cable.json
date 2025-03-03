@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arkimedian:copperspool"
+    },
+    {
+      "item": "arkimedian:copperspool"
+    },
+    {
+      "item": "arkimedian:copperspool"
+    }
+  ],
+  "result": {
+    "item": "arkimedian:cable",
+    "count": 2
+  }
+}

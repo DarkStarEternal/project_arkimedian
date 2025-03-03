@@ -1,0 +1,8 @@
+{
+  "parent": "arkimedian:custom/bolt_gun_3",
+  "textures": {
+    "0": "arkimedian:block/ammo_container",
+    "1": "arkimedian:block/boltgun",
+    "particle": "arkimedian:item/wrench"
+  }
+}

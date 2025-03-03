@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "arkimedian:input",
+    "arkimedian:constructioncore",
+    "arkimedian:smeltery",
+    "arkimedian:output",
+    "arkimedian:belt",
+    "arkimedian:storagecontainer",
+    "arkimedian:merger",
+    "arkimedian:splitter",
+    "arkimedian:electrolyzer"
+  ]
+}

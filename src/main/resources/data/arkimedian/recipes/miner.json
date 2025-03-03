@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:heavyplate"
+    },
+    "b": {
+      "item": "arkimedian:motor"
+    },
+    "c": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "arkimedian:miner",
+    "count": 1
+  }
+}

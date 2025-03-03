@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "arkimedian:input",
+    "arkimedian:constructioncore",
+    "arkimedian:smeltery",
+    "arkimedian:output",
+    "arkimedian:belt_av_i",
+    "arkimedian:storagecontainer",
+    "arkimedian:merger",
+    "arkimedian:splitter",
+    "arkimedian:electrolyzer",
+    "arkimedian:belt_av_ii",
+    "arkimedian:biomassgenerator",
+    "arkimedian:spaceassembler"
+  ]
+}

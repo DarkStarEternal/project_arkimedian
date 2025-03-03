@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/hologramdisplayer"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/hologramdisplayer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/hologramdisplayer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/hologramdisplayer",
+      "y": 270
+    }
+  }
+}

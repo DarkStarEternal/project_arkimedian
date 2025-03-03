@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "arkimedian:ethenriaforest",
+    "arkimedian:oldgrowth_ntrasyl_forest"
+  ],
+  "spawners": {
+    "type": "arkimedian:synria",
+    "weight": 17,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

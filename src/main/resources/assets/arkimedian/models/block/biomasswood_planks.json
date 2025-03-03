@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "arkimedian:block/biomass_plank",
+    "particle": "arkimedian:block/biomass_plank"
+  },
+  "render_type": "solid"
+}

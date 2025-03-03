@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "arkimedian:block/ntrasylleavesslab"
+    },
+    "type=top": {
+      "model": "arkimedian:block/ntrasylleavesslab_top"
+    },
+    "type=double": {
+      "model": "arkimedian:block/ntrasylleavesslab_full"
+    }
+  }
+}

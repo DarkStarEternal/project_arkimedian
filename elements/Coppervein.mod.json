@@ -1,0 +1,51 @@
+{
+  "_fv": 73,
+  "_type": "structure",
+  "definition": {
+    "structure": "copper_vein",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 10,
+    "separation": 4,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Ethenriaforest"
+      },
+      {
+        "value": "CUSTOM:Marsdesert"
+      },
+      {
+        "value": "CUSTOM:Marsrockfield"
+      },
+      {
+        "value": "CUSTOM:OldgrowthNtrasylForest"
+      },
+      {
+        "value": "CUSTOM:Xenoshroomfield"
+      },
+      {
+        "value": "CUSTOM:Sociresnoliaswamp"
+      },
+      {
+        "value": "CUSTOM:BarrenWasteland"
+      },
+      {
+        "value": "CUSTOM:HotValley"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

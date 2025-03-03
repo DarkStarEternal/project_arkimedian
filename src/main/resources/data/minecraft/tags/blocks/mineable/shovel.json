@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "arkimedian:heateddirt",
+    "arkimedian:extraterrestricmud",
+    "arkimedian:extraterrestricdirt",
+    "arkimedian:marssand"
+  ]
+}

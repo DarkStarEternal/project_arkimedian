@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcd",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:heavyplate"
+    },
+    "b": {
+      "item": "minecraft:copper_ingot"
+    },
+    "c": {
+      "item": "arkimedian:copper_ironspool"
+    },
+    "d": {
+      "item": "arkimedian:fabric"
+    }
+  },
+  "result": {
+    "item": "arkimedian:fluidinput",
+    "count": 1
+  }
+}

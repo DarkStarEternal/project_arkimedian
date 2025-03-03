@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "arkimedian:pipe",
+    "arkimedian:fluidinput",
+    "arkimedian:pipeoutput"
+  ]
+}

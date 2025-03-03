@@ -1,0 +1,9 @@
+{
+  "parent": "arkimedian:custom/armtable",
+  "textures": {
+    "all": "arkimedian:block/blank_metal",
+    "particle": "arkimedian:block/blank_metal",
+    "0": "arkimedian:block/better_crafter"
+  },
+  "render_type": "solid"
+}

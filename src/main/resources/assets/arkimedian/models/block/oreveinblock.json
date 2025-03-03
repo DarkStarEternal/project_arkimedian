@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/ore_vein_side",
+    "up": "arkimedian:block/ore_vein_side",
+    "north": "arkimedian:block/ore_vein_side",
+    "east": "arkimedian:block/ore_vein_side",
+    "south": "arkimedian:block/ore_vein_side",
+    "west": "arkimedian:block/ore_vein_side",
+    "particle": "arkimedian:block/ore_vein_side"
+  },
+  "render_type": "solid"
+}

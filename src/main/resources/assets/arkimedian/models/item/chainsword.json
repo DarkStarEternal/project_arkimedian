@@ -1,0 +1,7 @@
+{
+  "parent": "arkimedian:custom/chainsword",
+  "textures": {
+    "0": "arkimedian:block/chainsword",
+    "particle": "arkimedian:item/wrench"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "texture_3.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_on_off_switch",
+          "image": "on_off_switch.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Onoffswitch"
+          },
+          "x": 285,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_arrow_next",
+          "image": "arrow_next.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Arrownextclicked"
+          },
+          "x": 195,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_arrowprevious",
+          "image": "arrowprevious.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Arrowpreviousclicked"
+          },
+          "x": 117,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_temperating_cloth",
+          "image": "temperating_cloth.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Fabricclicked"
+          },
+          "x": 123,
+          "y": 62,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

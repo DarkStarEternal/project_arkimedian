@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "arkimedian:block/platecasing_slab"
+    },
+    "type=top": {
+      "model": "arkimedian:block/platecasing_slab_top"
+    },
+    "type=double": {
+      "model": "arkimedian:block/platecasing_slab_full"
+    }
+  }
+}

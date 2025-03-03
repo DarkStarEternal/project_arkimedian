@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/blank_metal",
+    "up": "arkimedian:block/blank_metal",
+    "north": "arkimedian:block/blank_metal",
+    "east": "arkimedian:block/blank_metal",
+    "south": "arkimedian:block/blank_metal",
+    "west": "arkimedian:block/blank_metal",
+    "particle": "arkimedian:block/blank_metal"
+  },
+  "render_type": "solid"
+}

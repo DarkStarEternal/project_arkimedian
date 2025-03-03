@@ -1,0 +1,9 @@
+{
+  "parent": "arkimedian:custom/belt_av_ii",
+  "textures": {
+    "all": "arkimedian:block/blank_metal",
+    "particle": "arkimedian:block/blank_metal",
+    "0": "arkimedian:block/balt_av_ii"
+  },
+  "render_type": "solid"
+}

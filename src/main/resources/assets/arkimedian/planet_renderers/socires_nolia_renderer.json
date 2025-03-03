@@ -1,0 +1,96 @@
+{
+  "custom_clouds": true,
+  "custom_sky": true,
+  "custom_weather": false,
+  "dimension": "arkimedian:socires_nolia",
+  "has_fog": true,
+  "has_thick_fog": false,
+  "render_in_rain": false,
+  "sky_renderables": [
+    {
+      "back_light_color": -3081481,
+      "back_light_scale": 21.0,
+      "blend": true,
+      "global_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 2.5,
+      "texture": "arkimedian:textures/screens/red_sun.png"
+    },
+    {
+      "back_light_color": -4943731,
+      "back_light_scale": 6.0,
+      "blend": true,
+      "global_rotation": [
+        20.0,
+        20.0,
+        180.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY_REVERSED",
+      "scale": 2.0,
+      "texture": "arkimedian:textures/screens/moon_default.png"
+    },
+    {
+      "back_light_color": -1714771,
+      "back_light_scale": 4.5,
+      "blend": true,
+      "global_rotation": [
+        0.0,
+        0.0,
+        180.0
+      ],
+      "local_rotation": [
+        0.0,
+        20.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY_REVERSED",
+      "scale": 0.5,
+      "texture": "arkimedian:textures/screens/nithril_sanctum.png"
+    },
+    {
+      "back_light_color": -12813094,
+      "back_light_scale": 1.2,
+      "blend": true,
+      "global_rotation": [
+        -40.0,
+        0.0,
+        160.0
+      ],
+      "local_rotation": [
+        0.0,
+        100.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 0.4,
+      "texture":"arkimedian:textures/screens/ethenria_beta.png"
+    }
+  ],
+  "star_colors": [
+    {
+      "data": -1,
+      "weight": 5
+    },
+    {
+        "data": 3664
+        wheight: 2
+    }
+  ],
+  "stars": 1500,
+  "sunrise_angle": 29.52,
+  "sunrise_color": 383131
+}

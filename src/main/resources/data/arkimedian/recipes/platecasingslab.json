@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:platecasing"
+    }
+  },
+  "result": {
+    "item": "arkimedian:platecasing_slab",
+    "count": 6
+  }
+}

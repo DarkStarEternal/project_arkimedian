@@ -1,0 +1,9 @@
+{
+  "parent": "arkimedian:custom/straight_cable",
+  "textures": {
+    "all": "minecraft:block/black_concrete",
+    "particle": "minecraft:block/black_concrete",
+    "0": "arkimedian:block/cable_block"
+  },
+  "render_type": "solid"
+}

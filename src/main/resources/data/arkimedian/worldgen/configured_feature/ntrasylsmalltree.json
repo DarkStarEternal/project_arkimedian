@@ -1,0 +1,15 @@
+{
+  "type": "arkimedian:structure_feature",
+  "config": {
+    "structure": "arkimedian:sininca_tree",
+    "ignored_blocks": [
+      "minecraft:air",
+      "minecraft:air"
+    ],
+    "offset": [
+      0,
+      -2,
+      0
+    ]
+  }
+}

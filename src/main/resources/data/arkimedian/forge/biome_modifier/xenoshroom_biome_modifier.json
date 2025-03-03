@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "arkimedian:xenoshroomfield",
+  "features": "arkimedian:xenoshroom",
+  "step": "surface_structures"
+}

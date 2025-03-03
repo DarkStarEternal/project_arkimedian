@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/exhaustwithwireconnect"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/exhaustwithwireconnect",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/exhaustwithwireconnect",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/exhaustwithwireconnect",
+      "y": 270
+    }
+  }
+}

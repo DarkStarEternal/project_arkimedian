@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "arkimedian:mossy_crilnazite",
+    "arkimedian:crilnazite",
+    "arkimedian:heateddirt",
+    "arkimedian:heatedgrassblock",
+    "arkimedian:extraterrestricmud",
+    "arkimedian:ceramite",
+    "minecraft:mud",
+    "arkimedian:extraterrestricdirt",
+    "arkimedian:extraterresticgrass",
+    "arkimedian:marssand",
+    "arkimedian:marsstone"
+  ]
+}

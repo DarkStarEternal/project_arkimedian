@@ -1,0 +1,29 @@
+{
+  "synria_breathes": {
+    "subtitle": "subtitles.synria_breathes",
+    "sounds": [
+      {
+        "name": "arkimedian:synria_live",
+        "stream": false
+      }
+    ]
+  },
+  "synria_death": {
+    "subtitle": "subtitles.synria_death",
+    "sounds": [
+      {
+        "name": "arkimedian:synria_death",
+        "stream": false
+      }
+    ]
+  },
+  "ethenria_ambient": {
+    "subtitle": "subtitles.ethenria_ambient",
+    "sounds": [
+      {
+        "name": "arkimedian:ethenria_beta_ambient",
+        "stream": true
+      }
+    ]
+  }
+}

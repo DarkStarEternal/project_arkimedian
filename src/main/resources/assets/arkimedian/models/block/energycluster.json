@@ -1,0 +1,9 @@
+{
+  "parent": "arkimedian:custom/energy_cluster",
+  "textures": {
+    "all": "minecraft:block/blue_stained_glass",
+    "particle": "minecraft:block/blue_stained_glass",
+    "0": "arkimedian:block/energy_cluster"
+  },
+  "render_type": "cutout_mipped"
+}

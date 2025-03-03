@@ -1,0 +1,9 @@
+{
+  "parent": "arkimedian:custom/docreanitile_flesh_block",
+  "textures": {
+    "all": "arkimedian:block/docreanitile_flesh",
+    "particle": "arkimedian:block/docreanitile_flesh",
+    "missing": "arkimedian:block/docreanitile_flesh"
+  },
+  "render_type": "solid"
+}

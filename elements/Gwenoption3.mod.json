@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPAD3",
+    "keyBindingName": "Gwenoption 3",
+    "keyBindingCategoryKey": "arkimedian",
+    "onKeyPressed": {
+      "name": "Gwenoption3keypressed"
+    }
+  }
+}

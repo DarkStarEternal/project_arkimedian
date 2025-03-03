@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "a "
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:ntrasyl_log"
+    }
+  },
+  "result": {
+    "item": "arkimedian:ntrasyl_wood",
+    "count": 3
+  }
+}

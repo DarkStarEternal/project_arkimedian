@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "arkimedian:block/sininca_leaves",
+    "particle": "arkimedian:block/sininca_leaves"
+  }
+}

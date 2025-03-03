@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "gas_exhaust_update",
+        "1": "gas_exhaust_2",
+        "2": "cable_block_wiredexhaust"
+      },
+      "name": "default"
+    }
+  }
+}

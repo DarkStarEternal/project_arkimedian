@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arkimedian:rotor"
+    },
+    {
+      "item": "arkimedian:stator"
+    }
+  ],
+  "result": {
+    "item": "arkimedian:motor",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/rebar_ceracrete",
+    "up": "arkimedian:block/rebar_ceracrete",
+    "north": "arkimedian:block/rebar_ceracrete",
+    "east": "arkimedian:block/rebar_ceracrete",
+    "south": "arkimedian:block/rebar_ceracrete",
+    "west": "arkimedian:block/rebar_ceracrete",
+    "particle": "arkimedian:block/rebar_ceracrete"
+  },
+  "render_type": "solid"
+}

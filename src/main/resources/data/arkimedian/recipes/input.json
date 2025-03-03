@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcd",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:heavyplate"
+    },
+    "b": {
+      "item": "minecraft:iron_bars"
+    },
+    "c": {
+      "item": "arkimedian:cable"
+    },
+    "d": {
+      "item": "arkimedian:circuits"
+    }
+  },
+  "result": {
+    "item": "arkimedian:input",
+    "count": 2
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/oilvein",
+    "up": "arkimedian:block/oilvein",
+    "north": "arkimedian:block/oilvein",
+    "east": "arkimedian:block/oilvein",
+    "south": "arkimedian:block/oilvein",
+    "west": "arkimedian:block/oilvein",
+    "particle": "arkimedian:block/oilvein"
+  },
+  "render_type": "solid"
+}

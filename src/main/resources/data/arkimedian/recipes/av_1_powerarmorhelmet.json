@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a b",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:complexcircuit"
+    },
+    "b": {
+      "item": "arkimedian:computer"
+    },
+    "c": {
+      "item": "arkimedian:heavyplate"
+    },
+    "d": {
+      "item": "arkimedian:asad"
+    }
+  },
+  "result": {
+    "item": "arkimedian:arkimedian_av_1_powerarmor_helmet",
+    "count": 1
+  }
+}

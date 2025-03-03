@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/blank_metal_bottom",
+    "up": "arkimedian:block/blank_top_metal",
+    "north": "arkimedian:block/belt_connect_point_in_update",
+    "east": "arkimedian:block/belt_connect_point_in_update",
+    "south": "arkimedian:block/belt_connect_point_out_update",
+    "west": "arkimedian:block/belt_connect_point_in_update",
+    "particle": "arkimedian:block/blank_metal_bottom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/crilnazite",
+    "up": "arkimedian:block/crilnazite",
+    "north": "arkimedian:block/crilnazite",
+    "east": "arkimedian:block/crilnazite",
+    "south": "arkimedian:block/crilnazite",
+    "west": "arkimedian:block/crilnazite",
+    "particle": "arkimedian:block/crilnazite"
+  },
+  "render_type": "solid"
+}

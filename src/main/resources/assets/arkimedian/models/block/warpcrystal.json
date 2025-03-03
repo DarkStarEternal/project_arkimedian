@@ -1,0 +1,9 @@
+{
+  "parent": "arkimedian:custom/sideways_warpcrystals",
+  "textures": {
+    "all": "arkimedian:block/mentriolite_with_warpshards",
+    "particle": "arkimedian:block/mentriolite_with_warpshards",
+    "0": "arkimedian:block/warpcore_sidways"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/ntrasyl_log_top_new_try",
+    "up": "arkimedian:block/ntrasyl_log_top_new_try",
+    "north": "arkimedian:block/ntrasyl_log_new_try",
+    "east": "arkimedian:block/ntrasyl_log_new_try",
+    "south": "arkimedian:block/ntrasyl_log_new_try",
+    "west": "arkimedian:block/ntrasyl_log_new_try",
+    "particle": "arkimedian:block/ntrasyl_log_top_new_try"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "cde"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:plastic"
+    },
+    "b": {
+      "item": "arkimedian:cable"
+    },
+    "c": {
+      "item": "arkimedian:aluminiumsheet"
+    },
+    "d": {
+      "item": "arkimedian:complexcircuit"
+    },
+    "e": {
+      "item": "arkimedian:motor"
+    }
+  },
+  "result": {
+    "item": "arkimedian:belt_av_ii",
+    "count": 4
+  }
+}

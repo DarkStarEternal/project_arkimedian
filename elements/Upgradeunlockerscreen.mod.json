@@ -1,0 +1,208 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "research_tree_button.png",
+          "use1Xscale": false,
+          "x": 195,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_space_helmet",
+          "image": "space_helmet.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Spacesuitunlock"
+          },
+          "x": 204,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_unlocks_spacesuit",
+          "text": {
+            "fixedValue": "unlocks spacesuit, Cost: 50 Heavy Plates, 30 Circuits"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 204,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "research_tree_button.png",
+          "use1Xscale": false,
+          "x": 195,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "straight_unlock_path.png",
+          "use1Xscale": false,
+          "x": 204,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_aluminum_ingot",
+          "image": "aluminum_ingot.png",
+          "hoveredImage": "",
+          "x": 204,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_aluminium_refinement",
+          "text": {
+            "fixedValue": "Aluminium refinement, Costs: 50 Heavy Plates, 10 Motors"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 204,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unlockscreen.png",
+          "use1Xscale": false,
+          "x": 24,
+          "y": -28,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_submit_items",
+          "text": {
+            "fixedValue": "Submit Items"
+          },
+          "color": {
+            "value": -16737793,
+            "falpha": 0.0
+          },
+          "x": 42,
+          "y": 152,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "item_required_back.png",
+          "use1Xscale": false,
+          "x": 42,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "item_required_back.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 60,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 42,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 78,
+          "y": 161,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

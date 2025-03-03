@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Heavyplate"
+      },
+      {
+        "value": "CUSTOM:Heavyplate"
+      },
+      {
+        "value": "CUSTOM:Heavyplate"
+      },
+      {
+        "value": "Blocks.IRON_BARS"
+      },
+      {
+        "value": "CUSTOM:Cable"
+      },
+      {
+        "value": "CUSTOM:Manufactureditem"
+      },
+      {
+        "value": "CUSTOM:Heavyplate"
+      },
+      {
+        "value": "CUSTOM:Heavyplate"
+      },
+      {
+        "value": "CUSTOM:Heavyplate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Input"
+    },
+    "name": "input",
+    "namespace": "mod"
+  }
+}

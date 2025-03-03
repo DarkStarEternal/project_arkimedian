@@ -1,0 +1,12 @@
+{
+  "type": "arkimedian:structure_feature",
+  "config": {
+    "structure": "arkimedian:toranile_tree_2",
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

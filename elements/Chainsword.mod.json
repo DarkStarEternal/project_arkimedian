@@ -1,0 +1,35 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "wrench",
+    "customModelName": "chainsword:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Chainsword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Projectarkimedianitems"
+      }
+    ],
+    "efficiency": 8.0,
+    "attackSpeed": 1.7,
+    "enchantability": 0,
+    "damageVsEntity": 8.2,
+    "usageCount": 1547,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

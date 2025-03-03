@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Motor"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Motor"
+      },
+      {
+        "value": "CUSTOM:CopperIronspool"
+      },
+      {
+        "value": "Blocks.CRAFTING_TABLE"
+      },
+      {
+        "value": "CUSTOM:CopperIronspool"
+      },
+      {
+        "value": "CUSTOM:Manufactureditem"
+      },
+      {
+        "value": "CUSTOM:Heavyplate"
+      },
+      {
+        "value": "CUSTOM:Manufactureditem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Constructioncore"
+    },
+    "name": "constructioncore_2",
+    "namespace": "mod"
+  }
+}

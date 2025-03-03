@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "arkimedian:hot_valley",
+    "arkimedian:barren_wasteland"
+  ],
+  "spawners": {
+    "type": "arkimedian:gnirilion",
+    "weight": 19,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

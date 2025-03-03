@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/xenoshroom_stem_top",
+    "up": "arkimedian:block/xenoshroom_stem_top",
+    "north": "arkimedian:block/xenoshroom_stem_side",
+    "east": "arkimedian:block/xenoshroom_stem_side",
+    "south": "arkimedian:block/xenoshroom_stem_side",
+    "west": "arkimedian:block/xenoshroom_stem_side",
+    "particle": "arkimedian:block/xenoshroom_stem_top"
+  },
+  "render_type": "solid"
+}

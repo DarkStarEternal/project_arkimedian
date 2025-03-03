@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Ceramitedust"
+      },
+      {
+        "value": "CUSTOM:Ceramite"
+      },
+      {
+        "value": "CUSTOM:Ceramitedust"
+      },
+      {
+        "value": "CUSTOM:Ceramite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ceramite"
+      },
+      {
+        "value": "CUSTOM:Ceramite"
+      },
+      {
+        "value": "CUSTOM:BiomasswoodPlanks"
+      },
+      {
+        "value": "CUSTOM:Ceramite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.FURNACE"
+    },
+    "name": "furnaceceramite",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "arkimedian:custom/gvral_holograph",
+  "textures": {
+    "all": "arkimedian:block/gvral_hologram",
+    "particle": "arkimedian:block/gvral_hologram",
+    "0": "arkimedian:block/gvral_hologram"
+  },
+  "render_type": "translucent"
+}

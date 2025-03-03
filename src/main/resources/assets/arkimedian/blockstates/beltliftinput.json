@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/beltliftinput"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/beltliftinput",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/beltliftinput",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/beltliftinput",
+      "y": 270
+    }
+  }
+}

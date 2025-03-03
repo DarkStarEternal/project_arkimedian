@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "arkimedian:platecasing_slab",
+    "arkimedian:biomasswood_slab",
+    "arkimedian:metalcasing_slab",
+    "arkimedian:ceracrete_slab",
+    "arkimedian:ntrasylleavesslab"
+  ]
+}

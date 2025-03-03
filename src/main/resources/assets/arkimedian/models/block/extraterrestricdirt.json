@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/dirt",
+    "up": "arkimedian:block/dirt",
+    "north": "arkimedian:block/dirt",
+    "east": "arkimedian:block/dirt",
+    "south": "arkimedian:block/dirt",
+    "west": "arkimedian:block/dirt",
+    "particle": "arkimedian:block/dirt"
+  },
+  "render_type": "solid"
+}

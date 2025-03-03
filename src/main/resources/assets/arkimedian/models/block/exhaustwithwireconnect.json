@@ -1,0 +1,11 @@
+{
+  "parent": "arkimedian:custom/gas_exhaust_wired",
+  "textures": {
+    "all": "arkimedian:block/blank_metal_side",
+    "particle": "arkimedian:block/blank_metal_side",
+    "0": "arkimedian:block/gas_exhaust_update",
+    "1": "arkimedian:block/gas_exhaust_2",
+    "2": "arkimedian:block/cable_block_wiredexhaust"
+  },
+  "render_type": "solid"
+}

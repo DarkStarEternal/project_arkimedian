@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/fluidinput"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/fluidinput",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/fluidinput",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/fluidinput",
+      "y": 270
+    }
+  }
+}

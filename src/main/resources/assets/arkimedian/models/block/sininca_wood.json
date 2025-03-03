@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "arkimedian:block/sininca_log_side",
+    "particle": "arkimedian:block/sininca_log_side"
+  },
+  "render_type": "solid"
+}

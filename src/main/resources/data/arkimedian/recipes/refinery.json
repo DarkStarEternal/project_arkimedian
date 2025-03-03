@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:gasexhaust"
+    },
+    "b": {
+      "item": "arkimedian:gold_ironspool"
+    },
+    "c": {
+      "item": "arkimedian:foundation"
+    },
+    "d": {
+      "item": "arkimedian:smeltery"
+    }
+  },
+  "result": {
+    "item": "arkimedian:refinery",
+    "count": 1
+  }
+}

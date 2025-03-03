@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/electrolyzer"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/electrolyzer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/electrolyzer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/electrolyzer",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "texture_3.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_wrench",
+          "image": "ethenria_beta.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Ethenriabetaclicked"
+          },
+          "x": 123,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_earth",
+          "text": {
+            "fixedValue": "Ethenria"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 123,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_wrench1",
+          "image": "nithril_sanctum.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Marsclicked"
+          },
+          "x": 168,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mars",
+          "text": {
+            "fixedValue": "Nithril"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_socires_nolia",
+          "image": "socires_nolia.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Sociresnoliaclicked"
+          },
+          "x": 123,
+          "y": 125,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

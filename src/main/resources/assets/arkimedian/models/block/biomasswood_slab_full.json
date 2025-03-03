@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "arkimedian:block/biomass_plank",
+    "bottom": "arkimedian:block/biomass_plank",
+    "top": "arkimedian:block/biomass_plank",
+    "side": "arkimedian:block/biomass_plank"
+  },
+  "render_type": "solid"
+}

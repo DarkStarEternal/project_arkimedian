@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/calite",
+    "up": "arkimedian:block/calite",
+    "north": "arkimedian:block/calite",
+    "east": "arkimedian:block/calite",
+    "south": "arkimedian:block/calite",
+    "west": "arkimedian:block/calite",
+    "particle": "arkimedian:block/calite"
+  },
+  "render_type": "solid"
+}

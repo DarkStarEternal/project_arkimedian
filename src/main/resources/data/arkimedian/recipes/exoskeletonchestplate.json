@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:plastic"
+    },
+    "b": {
+      "item": "arkimedian:motor"
+    },
+    "c": {
+      "item": "arkimedian:cable"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    },
+    "e": {
+      "item": "arkimedian:heavyplate"
+    }
+  },
+  "result": {
+    "item": "arkimedian:exoskeletonchestplate",
+    "count": 1
+  }
+}

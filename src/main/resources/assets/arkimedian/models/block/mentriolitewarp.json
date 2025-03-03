@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/mentriolite_with_warpshards",
+    "up": "arkimedian:block/mentriolite_with_warpshards",
+    "north": "arkimedian:block/mentriolite_with_warpshards",
+    "east": "arkimedian:block/mentriolite_with_warpshards",
+    "south": "arkimedian:block/mentriolite_with_warpshards",
+    "west": "arkimedian:block/mentriolite_with_warpshards",
+    "particle": "arkimedian:block/mentriolite_with_warpshards"
+  },
+  "render_type": "solid"
+}

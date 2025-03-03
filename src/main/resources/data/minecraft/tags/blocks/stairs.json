@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "arkimedian:platecasing_stairs",
+    "arkimedian:biomasswood_stairs",
+    "arkimedian:metalcasing_stairs",
+    "arkimedian:ceracrete_stair"
+  ]
+}

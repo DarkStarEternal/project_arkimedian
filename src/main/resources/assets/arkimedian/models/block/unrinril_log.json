@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/unrinril_log_top",
+    "up": "arkimedian:block/unrinril_log_top",
+    "north": "arkimedian:block/unrinril_log_side",
+    "east": "arkimedian:block/unrinril_log_side",
+    "south": "arkimedian:block/unrinril_log_side",
+    "west": "arkimedian:block/unrinril_log_side",
+    "particle": "arkimedian:block/unrinril_log_top"
+  },
+  "render_type": "solid"
+}

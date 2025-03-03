@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "c c",
+    "d d"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:heavyplate"
+    },
+    "b": {
+      "item": "arkimedian:cable"
+    },
+    "c": {
+      "item": "arkimedian:motor"
+    },
+    "d": {
+      "item": "arkimedian:plastic"
+    }
+  },
+  "result": {
+    "item": "arkimedian:exoskeleton_leggings",
+    "count": 1
+  }
+}

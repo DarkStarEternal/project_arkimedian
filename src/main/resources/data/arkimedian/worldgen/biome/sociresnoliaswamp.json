@@ -1,0 +1,57 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": -16704255,
+    "grass_color": -16704255,
+    "sky_color": 7972607,
+    "fog_color": -16737946,
+    "water_color": -16174286,
+    "water_fog_color": -16174286
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "cave_spider",
+        "weight": 16,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:patch_tall_grass",
+      "minecraft:patch_grass_forest",
+      "minecraft:patch_grass_jungle"
+    ],
+    []
+  ]
+}

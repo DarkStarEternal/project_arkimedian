@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/silanite_top",
+    "up": "arkimedian:block/silanite_top",
+    "north": "arkimedian:block/silanite_side",
+    "east": "arkimedian:block/silanite_side",
+    "south": "arkimedian:block/silanite_side",
+    "west": "arkimedian:block/silanite_side",
+    "particle": "arkimedian:block/silanite_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:bolts"
+    },
+    "b": {
+      "item": "arkimedian:heavyplate"
+    }
+  },
+  "result": {
+    "item": "arkimedian:boltcontainer",
+    "count": 1
+  }
+}

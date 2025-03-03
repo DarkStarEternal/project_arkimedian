@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:biomass"
+    },
+    "b": {
+      "item": "arkimedian:biomasswood_planks"
+    }
+  },
+  "result": {
+    "item": "arkimedian:biomasswood_fence",
+    "count": 3
+  }
+}

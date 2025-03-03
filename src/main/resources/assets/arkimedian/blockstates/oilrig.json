@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/oilrig"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/oilrig",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/oilrig",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/oilrig",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "arkimedian:custom/gas_exhaust",
+  "textures": {
+    "all": "arkimedian:block/blank_metal",
+    "particle": "arkimedian:block/blank_metal",
+    "0": "arkimedian:block/gas_exhaust_2",
+    "1": "arkimedian:block/gas_exhaust_update"
+  },
+  "render_type": "cutout_mipped"
+}

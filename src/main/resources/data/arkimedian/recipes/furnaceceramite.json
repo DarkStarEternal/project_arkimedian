@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:ceramitedust"
+    },
+    "b": {
+      "item": "arkimedian:ceramite"
+    },
+    "c": {
+      "item": "arkimedian:biomasswood_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace",
+    "count": 1
+  }
+}

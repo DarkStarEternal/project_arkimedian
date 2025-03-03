@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_fence",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Biomass"
+      },
+      {
+        "value": "CUSTOM:Biomass"
+      },
+      {
+        "value": "CUSTOM:Biomass"
+      },
+      {
+        "value": "CUSTOM:BiomasswoodPlanks"
+      },
+      {
+        "value": "CUSTOM:BiomasswoodPlanks"
+      },
+      {
+        "value": "CUSTOM:BiomasswoodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BiomasswoodFence"
+    },
+    "name": "biomasswood_fence_recipe",
+    "namespace": "mod"
+  }
+}

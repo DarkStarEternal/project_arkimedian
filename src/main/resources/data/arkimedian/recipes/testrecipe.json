@@ -1,0 +1,13 @@
+{
+  "type": "arkimedian:assembling",
+  "assemblytime": 800,
+  "energy": 300,
+  "ingredient": {
+  	"count": 3,
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "count": 1,
+    "item": "arkimedian:motor"
+  }
+}

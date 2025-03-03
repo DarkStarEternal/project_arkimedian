@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/aluminiumoreveinside"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/aluminiumoreveinside",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/aluminiumoreveinside",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/aluminiumoreveinside",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "arkimedian:block/dirt",
+    "top": "arkimedian:block/grass_block_top",
+    "side": "arkimedian:block/grass_block_side",
+    "overlay": "arkimedian:block/grass_block_side_overlay",
+    "particle": "arkimedian:block/dirt"
+  },
+  "render_type": "cutout_mipped"
+}

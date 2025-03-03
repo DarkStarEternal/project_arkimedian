@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "arkimedian:item/rocket_control_unit_update"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "arkimedian:sociresnoliaswamp",
+    "arkimedian:xenoshroomfield"
+  ],
+  "features": "arkimedian:sociresnoliawaterpuddle",
+  "step": "surface_structures"
+}

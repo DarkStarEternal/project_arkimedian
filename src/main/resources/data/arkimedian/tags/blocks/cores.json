@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "arkimedian:constructioncore",
+    "arkimedian:refinery",
+    "arkimedian:smeltery",
+    "arkimedian:storagecontainer",
+    "arkimedian:electrolyzer",
+    "arkimedian:spaceassembler",
+    "arkimedian:biomassgenerator"
+  ]
+}

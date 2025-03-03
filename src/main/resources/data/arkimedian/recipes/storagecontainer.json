@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:heavyplate"
+    },
+    "b": {
+      "item": "arkimedian:ntrasyl_wood"
+    }
+  },
+  "result": {
+    "item": "arkimedian:storagecontainer",
+    "count": 2
+  }
+}

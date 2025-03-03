@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/storagecontainer"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/storagecontainer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/storagecontainer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/storagecontainer",
+      "y": 270
+    }
+  }
+}

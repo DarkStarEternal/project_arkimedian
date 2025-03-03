@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/marscobble_goldore",
+    "up": "arkimedian:block/marscobble_goldore",
+    "north": "arkimedian:block/marscobble_goldore",
+    "east": "arkimedian:block/marscobble_goldore",
+    "south": "arkimedian:block/marscobble_goldore",
+    "west": "arkimedian:block/marscobble_goldore",
+    "particle": "arkimedian:block/marscobble_goldore"
+  },
+  "render_type": "solid"
+}

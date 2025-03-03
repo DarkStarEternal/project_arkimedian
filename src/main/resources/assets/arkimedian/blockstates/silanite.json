@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "arkimedian:block/silanite",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "arkimedian:block/silanite"
+    },
+    "axis=z": {
+      "model": "arkimedian:block/silanite",
+      "x": 90
+    }
+  }
+}

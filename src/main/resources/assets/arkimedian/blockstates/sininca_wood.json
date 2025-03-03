@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "arkimedian:block/sininca_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "arkimedian:block/sininca_wood"
+    },
+    "axis=z": {
+      "model": "arkimedian:block/sininca_wood",
+      "x": 90
+    }
+  }
+}

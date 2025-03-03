@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "arkimedian:ruin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 19,
+    "separation": 8,
+    "salt": 1046971585
+  }
+}

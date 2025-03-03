@@ -1,0 +1,47 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.7,
+  "downfall": 1,
+  "effects": {
+    "music": {
+      "sound": "arkimedian:ethenria_ambient",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "foliage_color": -10027213,
+    "grass_color": -10027213,
+    "sky_color": -3355444,
+    "fog_color": -3355444,
+    "water_color": -16724737,
+    "water_fog_color": -16724737
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:patch_tall_grass",
+      "minecraft:patch_grass_jungle"
+    ],
+    []
+  ]
+}

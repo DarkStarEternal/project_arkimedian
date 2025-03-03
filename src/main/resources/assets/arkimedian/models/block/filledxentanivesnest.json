@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/xentanives_nest_top",
+    "up": "arkimedian:block/xentanives_nest_top",
+    "north": "arkimedian:block/xentanives_nest_side_open_filled",
+    "east": "arkimedian:block/xentanves_nest_side",
+    "south": "arkimedian:block/xentanves_nest_side",
+    "west": "arkimedian:block/xentanves_nest_side",
+    "particle": "arkimedian:block/xentanives_nest_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:metalcasing"
+    }
+  },
+  "result": {
+    "item": "arkimedian:metalcasing_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "arkimedian:block/metalcasing_slab"
+    },
+    "type=top": {
+      "model": "arkimedian:block/metalcasing_slab_top"
+    },
+    "type=double": {
+      "model": "arkimedian:block/metalcasing_slab_full"
+    }
+  }
+}

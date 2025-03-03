@@ -1,0 +1,10 @@
+{
+  "parent": "arkimedian:custom/display",
+  "textures": {
+    "all": "arkimedian:block/belt_connect_point_in_withing_mechanics",
+    "particle": "arkimedian:block/belt_connect_point_in_withing_mechanics",
+    "0": "arkimedian:block/display",
+    "1": "arkimedian:block/keyboard"
+  },
+  "render_type": "solid"
+}

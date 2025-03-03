@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "arkimedian:turnite",
+    "arkimedian:silanite",
+    "arkimedian:ceracrete_wall",
+    "arkimedian:ceracrete_stair",
+    "arkimedian:ceracrete_slab",
+    "arkimedian:ceracrete"
+  ]
+}

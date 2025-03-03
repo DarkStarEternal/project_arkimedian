@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "arkimedian:biomass"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stick",
+    "count": 4
+  }
+}

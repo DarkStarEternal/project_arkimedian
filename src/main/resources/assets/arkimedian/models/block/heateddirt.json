@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/hot_dirt",
+    "up": "arkimedian:block/hot_dirt",
+    "north": "arkimedian:block/hot_dirt",
+    "east": "arkimedian:block/hot_dirt",
+    "south": "arkimedian:block/hot_dirt",
+    "west": "arkimedian:block/hot_dirt",
+    "particle": "arkimedian:block/hot_dirt"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    "dcd"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:plastic"
+    },
+    "b": {
+      "item": "arkimedian:pipe"
+    },
+    "c": {
+      "item": "arkimedian:spaceproofplating"
+    },
+    "d": {
+      "item": "arkimedian:heavyplate"
+    }
+  },
+  "result": {
+    "item": "arkimedian:fueltank",
+    "count": 1
+  }
+}

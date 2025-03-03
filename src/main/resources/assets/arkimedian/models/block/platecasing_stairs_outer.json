@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "arkimedian:block/blank_metal",
+    "bottom": "arkimedian:block/blank_metal",
+    "top": "arkimedian:block/blank_metal",
+    "side": "arkimedian:block/blank_metal"
+  },
+  "render_type": "solid"
+}

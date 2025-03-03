@@ -1,0 +1,71 @@
+{
+  "_fv": 73,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "background_gwen_hud.png",
+          "use1Xscale": false,
+          "anchorPoint": "TOP_LEFT",
+          "x": -13,
+          "y": -6,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gwen_logo.png",
+          "use1Xscale": true,
+          "anchorPoint": "TOP_LEFT",
+          "x": 28,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gwen_your",
+          "text": {
+            "fixedValue": "Beastiary"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 21,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "skip_button.png",
+          "use1Xscale": true,
+          "anchorPoint": "TOP_LEFT",
+          "x": 91,
+          "y": 230,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "Openbeastiary"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

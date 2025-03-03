@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "de "
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:circuits"
+    },
+    "b": {
+      "item": "arkimedian:motor"
+    },
+    "c": {
+      "item": "arkimedian:heavyplate"
+    },
+    "d": {
+      "item": "arkimedian:biomass"
+    },
+    "e": {
+      "item": "arkimedian:boltcontainer"
+    }
+  },
+  "result": {
+    "item": "arkimedian:boltgun",
+    "count": 1
+  }
+}

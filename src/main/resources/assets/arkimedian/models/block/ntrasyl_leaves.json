@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "arkimedian:block/nthrasyl_leaves",
+    "particle": "arkimedian:block/nthrasyl_leaves"
+  }
+}

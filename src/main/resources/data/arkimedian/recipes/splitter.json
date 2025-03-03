@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:input"
+    },
+    "b": {
+      "item": "arkimedian:complexcircuit"
+    },
+    "c": {
+      "item": "arkimedian:output"
+    }
+  },
+  "result": {
+    "item": "arkimedian:splitter",
+    "count": 2
+  }
+}

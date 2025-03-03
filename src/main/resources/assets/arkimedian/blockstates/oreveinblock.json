@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/oreveinblock"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/oreveinblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/oreveinblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/oreveinblock",
+      "y": 270
+    }
+  }
+}

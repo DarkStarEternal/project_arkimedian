@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/constructioncore"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/constructioncore",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/constructioncore",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/constructioncore",
+      "y": 270
+    }
+  }
+}

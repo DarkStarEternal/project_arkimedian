@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "b b",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:cable"
+    },
+    "b": {
+      "item": "arkimedian:heavyplate"
+    }
+  },
+  "result": {
+    "item": "arkimedian:canister",
+    "count": 1
+  }
+}

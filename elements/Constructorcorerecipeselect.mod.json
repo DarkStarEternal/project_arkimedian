@@ -1,0 +1,531 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "texture_3.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_manufactured_item",
+          "image": "circuit_update.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Manufactureditemclicked"
+          },
+          "x": 132,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_engine",
+          "image": "motor_update.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Engineclicked"
+          },
+          "x": 132,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_on_off_switch",
+          "image": "on_off_switch.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Onoffswitch"
+          },
+          "x": 285,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_stator",
+          "image": "stator_update.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Statorclicked"
+          },
+          "x": 132,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_rotor",
+          "image": "rotor_update.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Rotorclicked"
+          },
+          "x": 132,
+          "y": 143,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cable",
+          "image": "cable.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Cableclicked"
+          },
+          "x": 159,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_gas_canister",
+          "image": "gas_canister_update.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Canisterclicked"
+          },
+          "x": 159,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_heavy_plate",
+          "image": "heavy_plate_update.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Heavyplateclicked"
+          },
+          "x": 159,
+          "y": 143,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_iron_spool_copper",
+          "image": "iron_spool_copper.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Copperspoolclicked"
+          },
+          "x": 159,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_iron_spool_empty",
+          "image": "iron_spool_empty.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Emptyironspoolclicked"
+          },
+          "x": 186,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_iron_spool_gold",
+          "image": "iron_spool_gold.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Goldspoolclicked"
+          },
+          "x": 186,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_complex_circuit",
+          "image": "complex_circuit.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Complexcircuitclicked"
+          },
+          "x": 186,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_wrench",
+          "image": "wrench.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Computerclicked"
+          },
+          "x": 186,
+          "y": 143,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_arrow_next",
+          "image": "arrow_next.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Arrownextclicked"
+          },
+          "x": 195,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "item_required_back.png",
+          "use1Xscale": false,
+          "x": 222,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "item_required_back.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "item_required_back.png",
+          "use1Xscale": false,
+          "x": 249,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "1",
+            "name": "Recipedeclarefirstitemcount"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "x": 222,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_2",
+          "text": {
+            "fixedValue": "2",
+            "name": "Recipedeclareseconditemcount"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "x": 249,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_3",
+          "text": {
+            "fixedValue": "3",
+            "name": "Recipedeclarethirditemcount"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "x": 276,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "item_required_back.png",
+          "use1Xscale": false,
+          "x": 222,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_4",
+          "text": {
+            "fixedValue": "4",
+            "name": "Recipedeclarefourthitemcount"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "x": 222,
+          "y": 152,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "copper_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Copperfirstrequireditem"
+          },
+          "x": 224,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Ironfirstrequireditem"
+          },
+          "x": 224,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_spool_empty.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Emptyspoolsecondrequired"
+          },
+          "x": 251,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "heavy_plate_update.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Heavyplateseconditemrequired"
+          },
+          "x": 251,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "circuit_update.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Circuitfirstitemrequired"
+          },
+          "x": 224,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cable.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Cablethirditemrequired"
+          },
+          "x": 278,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cable.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Cableseconditemrequired"
+          },
+          "x": 251,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "plastic.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Plasticthirditemrequired"
+          },
+          "x": 278,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_spool_copper.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Copperspoolfirstitemrequired"
+          },
+          "x": 224,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rotor_update.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rotorfirstitemrequired"
+          },
+          "x": 224,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stator_update.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Statorseconditem"
+          },
+          "x": 251,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "complex_circuit.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Complexcircuitfirstdeclare"
+          },
+          "x": 224,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gold_ingot.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Goldfirstitem"
+          },
+          "x": 224,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "heavy_plate_update.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Heavyplatefirstitem"
+          },
+          "x": 224,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "raw_copper.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rawcopperseconditem"
+          },
+          "x": 251,
+          "y": 100,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

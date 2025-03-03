@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/belt_av_i"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/belt_av_i",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/belt_av_i",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/belt_av_i",
+      "y": 270
+    }
+  }
+}

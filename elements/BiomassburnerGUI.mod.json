@@ -1,0 +1,140 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "item_required_back.png",
+          "use1Xscale": false,
+          "x": 238,
+          "y": 97,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "texture_3.png",
+          "use1Xscale": false,
+          "x": 117,
+          "y": 74,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_power_creation",
+          "text": {
+            "fixedValue": "Power Creation"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 123,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_0_fe",
+          "text": {
+            "fixedValue": "0 FE"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 123,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_on_off_switch",
+          "image": "on_off_switch.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Onoffswitch"
+          },
+          "x": 258,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_power_storage",
+          "text": {
+            "fixedValue": "Power Storage"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 123,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_0_fe1",
+          "text": {
+            "fixedValue": "0 FE",
+            "name": "GetBioburnerFE"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 123,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 240,
+          "y": 98,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

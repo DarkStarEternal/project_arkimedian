@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "arkimedian:crilnazitecliffs",
+  "features": "arkimedian:crilnaziteunderground",
+  "step": "surface_structures"
+}

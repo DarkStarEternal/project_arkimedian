@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arkimedian:sininca_log"
+    }
+  ],
+  "result": {
+    "item": "arkimedian:biomass",
+    "count": 3
+  }
+}

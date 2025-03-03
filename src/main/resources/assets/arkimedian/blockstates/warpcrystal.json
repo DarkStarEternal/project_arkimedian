@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/warpcrystal"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/warpcrystal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/warpcrystal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/warpcrystal",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "arkimedian:block/warpcrystal",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "arkimedian:block/warpcrystal",
+      "x": 90
+    }
+  }
+}

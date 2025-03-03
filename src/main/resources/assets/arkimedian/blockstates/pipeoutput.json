@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/pipeoutput"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/pipeoutput",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/pipeoutput",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/pipeoutput",
+      "y": 270
+    }
+  }
+}

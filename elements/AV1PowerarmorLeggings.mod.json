@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Cable"
+      },
+      {
+        "value": "CUSTOM:ExoskeletonLeggings"
+      },
+      {
+        "value": "CUSTOM:Cable"
+      },
+      {
+        "value": "CUSTOM:Fabric"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Fabric"
+      },
+      {
+        "value": "CUSTOM:Heavyplate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Heavyplate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ArkimedianAV1Powerarmor.legs"
+    },
+    "name": "av_1_powerarmor_leggings",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "ba ",
+    "bba"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:heavyplate"
+    },
+    "b": {
+      "item": "arkimedian:platecasing"
+    }
+  },
+  "result": {
+    "item": "arkimedian:platecasing_stairs",
+    "count": 4
+  }
+}

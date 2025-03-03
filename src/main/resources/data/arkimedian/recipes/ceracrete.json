@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:ceramite"
+    },
+    "b": {
+      "item": "arkimedian:ceramitedust"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "arkimedian:ceracrete",
+    "count": 6
+  }
+}

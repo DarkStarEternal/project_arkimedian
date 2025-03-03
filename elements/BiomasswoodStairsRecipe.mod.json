@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Biomass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BiomasswoodPlanks"
+      },
+      {
+        "value": "CUSTOM:Biomass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Biomass"
+      },
+      {
+        "value": "CUSTOM:BiomasswoodPlanks"
+      },
+      {
+        "value": "CUSTOM:Biomass"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BiomasswoodStairs"
+    },
+    "name": "biomasswood_stairs_recipe",
+    "namespace": "mod"
+  }
+}

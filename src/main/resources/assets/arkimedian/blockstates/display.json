@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/display"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/display",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/display",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/display",
+      "y": 270
+    }
+  }
+}

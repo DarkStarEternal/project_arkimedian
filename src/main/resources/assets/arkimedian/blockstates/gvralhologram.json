@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/gvralhologram"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/gvralhologram",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/gvralhologram",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/gvralhologram",
+      "y": 270
+    }
+  }
+}

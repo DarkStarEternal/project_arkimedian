@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 6
+      }
+    },
+    "half_height": 1,
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "#dirt"
+    },
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "arkimedian:extraterresticgrass"
+        }
+      },
+      "rules": []
+    }
+  }
+}

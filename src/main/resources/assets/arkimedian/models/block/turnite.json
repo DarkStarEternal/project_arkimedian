@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/turnite",
+    "up": "arkimedian:block/turnite",
+    "north": "arkimedian:block/turnite",
+    "east": "arkimedian:block/turnite",
+    "south": "arkimedian:block/turnite",
+    "west": "arkimedian:block/turnite",
+    "particle": "arkimedian:block/turnite"
+  },
+  "render_type": "solid"
+}

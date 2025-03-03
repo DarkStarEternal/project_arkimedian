@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/wiringblock"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/wiringblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/wiringblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/wiringblock",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "arkimedian:block/wiringblock",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "arkimedian:block/wiringblock",
+      "x": 90
+    }
+  }
+}

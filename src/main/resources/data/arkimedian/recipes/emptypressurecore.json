@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:cable"
+    },
+    "b": {
+      "item": "arkimedian:heavyplate"
+    },
+    "c": {
+      "item": "minecraft:glass_pane"
+    },
+    "d": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "arkimedian:empty_pressurecore",
+    "count": 2
+  }
+}

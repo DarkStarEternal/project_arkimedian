@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "belt_av_1"
+      },
+      "name": "default"
+    }
+  }
+}

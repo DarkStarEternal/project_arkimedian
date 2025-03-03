@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "arkimedian:marsdesert",
+    "arkimedian:marsrockfield"
+  ],
+  "spawners": {
+    "type": "arkimedian:ernetmonstrocity",
+    "weight": 2,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

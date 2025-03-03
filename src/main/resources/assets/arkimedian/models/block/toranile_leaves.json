@@ -1,0 +1,8 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "arkimedian:block/tolanite_leaves",
+    "particle": "arkimedian:block/tolanite_leaves"
+  },
+  "render_type": "cutout"
+}

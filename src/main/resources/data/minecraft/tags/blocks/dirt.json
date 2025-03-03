@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:grass_block",
+    "minecraft:moss_block",
+    "arkimedian:extraterrestricdirt",
+    "arkimedian:extraterresticgrass"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/xentanivesnest"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/xentanivesnest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/xentanivesnest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/xentanivesnest",
+      "y": 270
+    }
+  }
+}

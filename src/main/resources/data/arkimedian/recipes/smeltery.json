@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "eee"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "arkimedian:stator"
+    },
+    "c": {
+      "item": "minecraft:iron_block"
+    },
+    "d": {
+      "item": "arkimedian:metalcasing"
+    },
+    "e": {
+      "item": "arkimedian:heavyplate"
+    }
+  },
+  "result": {
+    "item": "arkimedian:smeltery",
+    "count": 1
+  }
+}

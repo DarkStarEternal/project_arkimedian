@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cac"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:heavyplate"
+    },
+    "b": {
+      "item": "arkimedian:complexcircuit"
+    },
+    "c": {
+      "item": "arkimedian:cable"
+    }
+  },
+  "result": {
+    "item": "arkimedian:display",
+    "count": 1
+  }
+}

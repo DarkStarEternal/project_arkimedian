@@ -1,0 +1,88 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "texture_3.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_raw_gold",
+          "image": "raw_gold.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Goldclicked"
+          },
+          "x": 123,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_raw_iron",
+          "image": "raw_iron.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Ironclicked"
+          },
+          "x": 123,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_on_off_switch",
+          "image": "on_off_switch.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Onoffswitch"
+          },
+          "x": 285,
+          "y": 152,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_raw_copper",
+          "image": "raw_copper.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Copperclicked"
+          },
+          "x": 123,
+          "y": 107,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Manufactureditem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Manufactureditem"
+      },
+      {
+        "value": "CUSTOM:Fabric"
+      },
+      {
+        "value": "CUSTOM:GoldIronspool"
+      },
+      {
+        "value": "CUSTOM:Fabric"
+      },
+      {
+        "value": "CUSTOM:Heavyplate"
+      },
+      {
+        "value": "CUSTOM:Exoskeletonchestplate"
+      },
+      {
+        "value": "CUSTOM:Heavyplate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ArkimedianAV1Powerarmor.body"
+    },
+    "name": "av_1_powerarmor_chestplate",
+    "namespace": "mod"
+  }
+}

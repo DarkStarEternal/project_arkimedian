@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "ba ",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:biomass"
+    },
+    "b": {
+      "item": "arkimedian:biomasswood_planks"
+    }
+  },
+  "result": {
+    "item": "arkimedian:biomasswood_stairs",
+    "count": 4
+  }
+}

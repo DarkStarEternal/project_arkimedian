@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/splitter"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/splitter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/splitter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/splitter",
+      "y": 270
+    }
+  }
+}

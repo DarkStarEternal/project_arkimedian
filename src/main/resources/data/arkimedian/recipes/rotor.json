@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "arkimedian:cable"
+    },
+    "b": {
+      "item": "arkimedian:heavyplate"
+    },
+    "c": {
+      "item": "arkimedian:circuits"
+    }
+  },
+  "result": {
+    "item": "arkimedian:rotor",
+    "count": 1
+  }
+}

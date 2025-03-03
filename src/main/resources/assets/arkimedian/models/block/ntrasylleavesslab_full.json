@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "arkimedian:block/nthrasyl_leaves",
+    "bottom": "arkimedian:block/nthrasyl_leaves",
+    "top": "arkimedian:block/nthrasyl_leaves",
+    "side": "arkimedian:block/nthrasyl_leaves"
+  },
+  "render_type": "cutout_mipped"
+}

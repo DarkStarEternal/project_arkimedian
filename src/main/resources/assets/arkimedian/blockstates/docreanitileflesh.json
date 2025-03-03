@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arkimedian:block/docreanitileflesh"
+    },
+    "facing=east": {
+      "model": "arkimedian:block/docreanitileflesh",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arkimedian:block/docreanitileflesh",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arkimedian:block/docreanitileflesh",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "arkimedian:block/docreanitileflesh",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "arkimedian:block/docreanitileflesh",
+      "x": 90
+    }
+  }
+}

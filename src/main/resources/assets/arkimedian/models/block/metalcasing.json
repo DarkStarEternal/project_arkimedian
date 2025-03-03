@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/metal_casing",
+    "up": "arkimedian:block/metal_casing",
+    "north": "arkimedian:block/metal_casing",
+    "east": "arkimedian:block/metal_casing",
+    "south": "arkimedian:block/metal_casing",
+    "west": "arkimedian:block/metal_casing",
+    "particle": "arkimedian:block/metal_casing"
+  },
+  "render_type": "solid"
+}

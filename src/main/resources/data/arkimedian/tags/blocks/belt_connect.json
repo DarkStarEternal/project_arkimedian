@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "arkimedian:belt_av_i",
+    "arkimedian:input",
+    "arkimedian:output",
+    "arkimedian:storagecontainer",
+    "arkimedian:merger",
+    "arkimedian:splitter",
+    "arkimedian:belt_av_ii",
+    "arkimedian:beltliftinput",
+    "arkimedian:beltliftoutput"
+  ]
+}

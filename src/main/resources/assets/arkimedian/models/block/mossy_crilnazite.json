@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arkimedian:block/crilnazite",
+    "up": "arkimedian:block/extraterrestric_moss",
+    "north": "arkimedian:block/mossycrilnazite",
+    "east": "arkimedian:block/mossycrilnazite",
+    "south": "arkimedian:block/mossycrilnazite",
+    "west": "arkimedian:block/mossycrilnazite",
+    "particle": "arkimedian:block/crilnazite"
+  },
+  "render_type": "solid"
+}

@@ -24,9 +24,13 @@ public class SociresnoliaclickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		Entity ship = null;
 		double carryover_health = 0;
+		double count_number = 0;
+		Entity ship = null;
+		Entity player = null;
+		Entity new_ship = null;
 		ship = entity.getVehicle();
+		player = entity;
 		carryover_health = ship instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1;
 		if (!ship.level().isClientSide())
 			ship.discard();
@@ -57,8 +61,10 @@ public class SociresnoliaclickedProcedure {
 				for (Entity entityiterator : world.getEntities(entity, new AABB(x, y, z, x, y, z))) {
 					if (entityiterator instanceof LivingEntity _entity)
 						_entity.setHealth((float) carryover_health);
-					ship = entityiterator;
-					entity.startRiding(ship);
+					new_ship = entityiterator;
+					for (int index0 = 0; index0 < 5; index0++) {
+						player.startRiding(new_ship);
+					}
 				}
 			}
 			world = _worldorig;

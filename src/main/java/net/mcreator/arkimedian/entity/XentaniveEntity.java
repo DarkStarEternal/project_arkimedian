@@ -7,7 +7,6 @@ import net.minecraftforge.common.ForgeMod;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -31,7 +30,6 @@ import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.TamableAnimal;
-import net.minecraft.world.entity.SpawnGroupData;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
@@ -44,7 +42,6 @@ import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.world.DifficultyInstance;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -55,16 +52,11 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.arkimedian.procedures.XentanivefetchfoodProcedure;
 import net.mcreator.arkimedian.procedures.XentanivePlaybackConditionProcedure;
-import net.mcreator.arkimedian.procedures.XentaniveOnInitialEntitySpawnProcedure;
-import net.mcreator.arkimedian.procedures.XentaniveOnEntityTickUpdateProcedure;
 import net.mcreator.arkimedian.procedures.XenantivetamedyesProcedure;
 import net.mcreator.arkimedian.procedures.GrelhoundPlaybackConditionProcedure;
 import net.mcreator.arkimedian.init.ArkimedianModItems;
 import net.mcreator.arkimedian.init.ArkimedianModEntities;
-
-import javax.annotation.Nullable;
 
 import java.util.EnumSet;
 
@@ -217,13 +209,6 @@ public class XentaniveEntity extends TamableAnimal {
 	}
 
 	@Override
-	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
-		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
-		XentaniveOnInitialEntitySpawnProcedure.execute(world, this.getX(), this.getY(), this.getZ(), this);
-		return retval;
-	}
-
-	@Override
 	public void addAdditionalSaveData(CompoundTag compound) {
 		super.addAdditionalSaveData(compound);
 		compound.putInt("Datafeed_level", this.entityData.get(DATA_feed_level));
@@ -289,24 +274,12 @@ public class XentaniveEntity extends TamableAnimal {
 	}
 
 	@Override
-	public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
-		super.awardKillScore(entity, score, damageSource);
-		XentanivefetchfoodProcedure.execute(entity);
-	}
-
-	@Override
 	public void tick() {
 		super.tick();
 		if (this.level().isClientSide()) {
 			this.animationState1.animateWhen(XentanivePlaybackConditionProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this), this.tickCount);
 			this.animationState2.animateWhen(GrelhoundPlaybackConditionProcedure.execute(this), this.tickCount);
 		}
-	}
-
-	@Override
-	public void baseTick() {
-		super.baseTick();
-		XentaniveOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override

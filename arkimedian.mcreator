@@ -7240,60 +7240,6 @@
       "path": "~/interplanetary/Solarsystem/socires_nolia"
     },
     {
-      "name": "Xentanivefetchfood",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xentanivefetchfood",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/arkimedian/procedures/XentanivefetchfoodProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/interplanetary/Solarsystem/socires_nolia/lifeforms"
-    },
-    {
-      "name": "XentaniveOnInitialEntitySpawn",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xentanive_on_initial_entity_spawn",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/arkimedian/procedures/XentaniveOnInitialEntitySpawnProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/interplanetary/Solarsystem/socires_nolia/lifeforms"
-    },
-    {
       "name": "Toranilewoodbiomass",
       "type": "recipe",
       "compiles": true,
@@ -7401,41 +7347,6 @@
           "src/main/java/net/mcreator/arkimedian/procedures/FilledxentanivesnestOnBlockRightClickedProcedure.java"
         ],
         "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/interplanetary/Solarsystem/socires_nolia/lifeforms"
-    },
-    {
-      "name": "XentaniveOnEntityTickUpdate",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xentanive_on_entity_tick_update",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/arkimedian/procedures/XentaniveOnEntityTickUpdateProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "x",
             "type": "number"

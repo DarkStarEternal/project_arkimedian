@@ -33,7 +33,18 @@
         "subtract": false
       }
     ],
-    "customProperties": [],
+    "customProperties": [
+      {
+        "arrayData": [
+          "left",
+          "right",
+          "none"
+        ],
+        "name": "CUSTOM:corner",
+        "type": "string",
+        "value": "none"
+      }
+    ],
     "name": "Wiringblock",
     "specialInformation": {
       "fixedValue": []

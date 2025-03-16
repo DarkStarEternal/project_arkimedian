@@ -62,10 +62,8 @@ public class SociresnoliaclickedProcedure {
 					if (entityiterator instanceof LivingEntity _entity)
 						_entity.setHealth((float) carryover_health);
 					new_ship = entityiterator;
-					for (int index0 = 0; index0 < 5; index0++) {
-						player.startRiding(new_ship);
-					}
 				}
+				player.startRiding(new_ship);
 			}
 			world = _worldorig;
 		}

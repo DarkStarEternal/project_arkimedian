@@ -4,6 +4,7 @@ package net.mcreator.arkimedian.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -21,6 +22,7 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.Containers;
+import net.minecraft.util.StringRepresentable;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
@@ -29,10 +31,11 @@ import net.mcreator.arkimedian.block.entity.WiringblockBlockEntity;
 
 public class WiringblockBlock extends Block implements EntityBlock {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
+	public static final EnumProperty<CornerProperty> CORNER = EnumProperty.create("corner", CornerProperty.class);
 
 	public WiringblockBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
-		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
+		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(CORNER, CornerProperty.NONE));
 	}
 
 	@Override
@@ -53,12 +56,12 @@ public class WiringblockBlock extends Block implements EntityBlock {
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		super.createBlockStateDefinition(builder);
-		builder.add(FACING);
+		builder.add(FACING, CORNER);
 	}
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		return super.getStateForPlacement(context).setValue(FACING, context.getNearestLookingDirection().getOpposite());
+		return super.getStateForPlacement(context).setValue(FACING, context.getNearestLookingDirection().getOpposite()).setValue(CORNER, CornerProperty.NONE);
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {
@@ -117,5 +120,20 @@ public class WiringblockBlock extends Block implements EntityBlock {
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;
+	}
+
+	public enum CornerProperty implements StringRepresentable {
+		LEFT("left"), RIGHT("right"), NONE("none");
+
+		private final String name;
+
+		private CornerProperty(String name) {
+			this.name = name;
+		}
+
+		@Override
+		public String getSerializedName() {
+			return this.name;
+		}
 	}
 }
